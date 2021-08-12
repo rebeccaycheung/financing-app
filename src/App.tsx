@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
 import Dashboard from './components/Dashboard/Dashboard';
-import Summary from './components/Account/Summary/Summary';
+import AccountsSummary from './components/Account/AccountsSummary';
+import BillsSummary from './components/Bill/BillsSummary';
 
 function App() {
   return (
     <div className="App">
       <Dashboard />
-      <Summary />
+      <AccountsSummary />
+      <BillsSummary />
     </div>
   );
 }
