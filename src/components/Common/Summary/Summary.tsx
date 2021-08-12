@@ -31,7 +31,7 @@ const Summary: React.FC<{rows: Row[], title: string}> = ({ rows, title }) => {
             <h1>
                 {title}
             </h1>
-            <div className="summary">
+            <div className="grey-background summary">
                 {getRows}
             </div>
         </header>

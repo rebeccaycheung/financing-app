@@ -1,9 +1,3 @@
-.summary {
-    background-color: #f8f8f8;
-    padding: 2rem;
-    border-radius: 0.8rem;
-}
-
 .summary > article {
     display: flex;
     justify-content: space-between;
