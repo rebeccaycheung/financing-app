@@ -1,0 +1,21 @@
+.summary {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+
+.summary > article {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 2px solid #E3E3E3;
+}
+
+.summary > article:first-child {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.summary > article:last-child {
+    padding: 1rem 1rem 0 1rem;
+    border-bottom: none;
+}
