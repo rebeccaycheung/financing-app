@@ -19,7 +19,7 @@ const BillsSummary: React.FC = () => {
     ];
 
     return (
-        <Summary rows={bills} />
+        <Summary rows={bills} title={"Bills"} />
     )
 };
 

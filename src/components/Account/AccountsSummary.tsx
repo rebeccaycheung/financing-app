@@ -19,7 +19,7 @@ const AccountsSummary: React.FC = () => {
     ];
 
     return (
-        <Summary rows={accounts} />
+        <Summary rows={accounts} title={"Accounts"} />
     )
 };
 
